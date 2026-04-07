@@ -1,4 +1,4 @@
-import { MapPin, Bell, Ticket, Shield } from "lucide-react";
+import { MapPin, Bell, Network, Shield } from "lucide-react";
 
 export default function Features() {
   const features = [
@@ -15,16 +15,16 @@ export default function Features() {
       description: "The coordinates drop only when you're vetted and holding a ticket. A digital recreation of the M25 rendezvous. Keep the location secure, keep the vibe intact."
     },
     {
-      icon: <Ticket size={32} />,
+      icon: <Network size={32} />,
       title: "THE TERMINAL",
-      subtitle: "Secure Ticketing & P2P Transfers",
-      description: "A marketplace built for the culture. Buy, sell, and transfer tickets securely. No corporate scalping fees, no fake tickets. Just a fair exchange between peers."
+      subtitle: "Secure P2P Information Sharing",
+      description: "A network built for the culture. Share event details and coordinate securely. No algorithms dictating what you see. Just a fair exchange of information between peers."
     },
     {
       icon: <Shield size={32} />,
       title: "GATEKEEPER PROTOCOL",
-      subtitle: "Community Moderation",
-      description: "Events are curated and community-moderated. We prioritize safety and alignment over mass scale. The underground stays underground."
+      subtitle: "Community Moderation & Handshakes",
+      description: "Grow your network by connecting with promoters and other ravers directly via a secure QR/NFC handshake. We prioritize safety and alignment over mass scale. The underground stays underground."
     }
   ];
 
@@ -48,7 +48,7 @@ export default function Features() {
               {feature.icon}
             </div>
             <h3 className="text-2xl font-display mb-2">{feature.title}</h3>
-            <h4 className="text-sm font-bold mb-4 opacity-70 tracking-widest">{feature.subtitle}</h4>
+            <h4 className="text-lg font-bold mb-4 opacity-70 tracking-widest">{feature.subtitle}</h4>
             <p className="leading-relaxed opacity-90">
               {feature.description}
             </p>

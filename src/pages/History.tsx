@@ -16,7 +16,7 @@ export default function History() {
         </p>
 
         <div className="p-6 border-l-4 border-terminal-green bg-terminal-gray/30 my-8">
-          <p className="font-mono text-sm">
+          <p className="font-mono text-lg md:text-xl leading-relaxed">
             &gt; DIALING...<br/>
             &gt; CONNECTION ESTABLISHED.<br/>
             &gt; "MEET AT THE M25 SERVICE STATION AT 2AM. WAIT FOR THE SIGNAL."
@@ -42,7 +42,7 @@ export default function History() {
         </p>
 
         <p>
-          We are bringing back the map point, the pager, and the clandestine network. But this time, it lives in your pocket. A secure, community-driven marketplace where the culture belongs to the people who build it.
+          We are bringing back the map point, the pager, and the clandestine network. This time it lives in your pocket. A secure, community-driven feed where the culture belongs to the people who build it.
         </p>
       </div>
     </div>

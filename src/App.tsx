@@ -13,6 +13,7 @@ import AppStore from "./pages/AppStore";
 import Support from "./pages/Support";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import DynamicPage from "./pages/DynamicPage";
 
 export default function App() {
   return (
@@ -27,6 +28,8 @@ export default function App() {
           <Route path="support" element={<Support />} />
           <Route path="terms" element={<Terms />} />
           <Route path="privacy" element={<Privacy />} />
+          {/* Dynamic Route Catch-all for scalable content */}
+          <Route path=":slug" element={<DynamicPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

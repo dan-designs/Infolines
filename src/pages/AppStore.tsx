@@ -11,33 +11,29 @@ export default function AppStore() {
         </div>
       </header>
 
-      <div className="bg-terminal-gray/20 p-6 border border-terminal-gray rounded-sm mb-8">
-        <p className="text-sm opacity-80">
-          <strong className="text-terminal-green">INTERNAL NOTE:</strong> This copy is optimized for Apple App Store compliance. We translate our subcultural history into Apple-compliant language. "Secret warehouse parties" becomes "exclusive, location-dropped pop-up events." "Evading surveillance" becomes "privacy-first, anti-spam event networking."
-        </p>
-      </div>
+
 
       <div className="space-y-10">
         <section className="space-y-2">
-          <h3 className="text-sm opacity-50 tracking-widest">APP NAME</h3>
+          <h3 className="text-lg opacity-50 tracking-widest font-bold">APP NAME</h3>
           <p className="text-2xl font-bold">Infolines</p>
         </section>
 
         <section className="space-y-2">
-          <h3 className="text-sm opacity-50 tracking-widest">SUBTITLE (MAX 30 CHARS)</h3>
+          <h3 className="text-lg opacity-50 tracking-widest font-bold">SUBTITLE (MAX 30 CHARS)</h3>
           <p className="text-2xl font-bold">Curated Events & Culture</p>
         </section>
 
         <section className="space-y-2">
-          <h3 className="text-sm opacity-50 tracking-widest">PROMOTIONAL TEXT (MAX 170 CHARS)</h3>
-          <p className="text-xl">Discover exclusive pop-ups, secure your tickets, and connect with a curated community. Privacy-first event networking.</p>
+          <h3 className="text-lg opacity-50 tracking-widest font-bold">PROMOTIONAL TEXT (MAX 170 CHARS)</h3>
+          <p className="text-xl">Discover exclusive events, find tickets, and connect with a curated community. Privacy-first event networking.</p>
         </section>
 
         <section className="space-y-4">
-          <h3 className="text-sm opacity-50 tracking-widest">APP DESCRIPTION (MAX 4000 CHARS)</h3>
+          <h3 className="text-lg opacity-50 tracking-widest font-bold">APP DESCRIPTION (MAX 4000 CHARS)</h3>
           <div className="space-y-4 text-lg leading-relaxed border-l-2 border-terminal-green pl-6">
             <p>
-              Infolines is a privacy-first event discovery and ticketing platform designed for curated, pop-up experiences. Built for organizers and attendees who value community and security, Infolines reimagines event networking by eliminating spam and protecting user data.
+              Infolines is a privacy-first event discovery and information sharing platform designed for curated event experiences. Built for organizers and attendees who value community and security, Infolines reimagines event networking by eliminating spam and protecting user data.
             </p>
             <p>
               Inspired by the "infoline" concept—where attendees receive exclusive updates directly from trusted sources—our app ensures that you only get the information you need, when you need it. Discover unique cultural events, purchase tickets securely, and receive day-of location drops directly to your device.
@@ -54,19 +50,16 @@ export default function AppStore() {
         </section>
 
         <section className="space-y-4 pt-8 border-t border-terminal-gray">
-          <h3 className="text-sm opacity-50 tracking-widest text-terminal-green">APP REVIEWER NOTES (INTERNAL)</h3>
+          <h3 className="text-lg opacity-50 tracking-widest text-terminal-green font-bold">APP REVIEWER NOTES (INTERNAL)</h3>
           <div className="bg-terminal-gray/30 p-6 border border-terminal-gray text-base leading-relaxed space-y-4">
             <p>
               Hello App Review Team,
             </p>
             <p>
-              Infolines is a secure ticketing and event discovery platform designed for licensed, safe, and curated pop-up events. Our core feature, the "location drop," is a privacy tool used by organizers to manage crowd flow and ensure that only verified ticket holders receive the final venue address on the day of the event.
+              Infolines is a secure event discovery platform designed for safe, curated dance music events and raves. Our core features, the “event feed” & "location drop," are connection based privacy tools used by organizers to manage crowd flow and ensure that only safe community members receive the final venue address the day of the event.
             </p>
             <p>
               <strong>Moderation & Safety:</strong> All event organizers are vetted before they can list events on our platform. We have robust reporting and blocking features for all user-generated content and social networking aspects of the app. Our moderation team reviews flagged content within 24 hours to ensure compliance with safety guidelines.
-            </p>
-            <p>
-              <strong>Ticketing:</strong> All ticket purchases are processed securely, and the app facilitates safe peer-to-peer transfers to prevent fraud and scalping.
             </p>
             <p>
               Thank you for your time and review.

@@ -1,7 +1,10 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export default function Layout() {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
     { name: "HOME", path: "/" },
@@ -22,17 +25,26 @@ export default function Layout() {
       <div className="max-w-4xl mx-auto px-6 py-8 relative z-10">
         <header className="mb-16 border-b-2 border-terminal-green pb-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            <Link to="/" className="flex items-center gap-3 group">
-              <div className="p-2 border-2 border-terminal-green group-hover:bg-terminal-green group-hover:text-terminal-dark transition-colors">
-                <img src="https://res.cloudinary.com/datad8tms/image/upload/q_auto/f_auto/v1775509301/infoline-logo_swatbk.svg" alt="Infolines Logo" className="w-6 h-6" />
-              </div>
-              <div>
-                <h1 className="text-4xl font-display leading-none m-0">INFOLINES</h1>
-                <p className="text-xs tracking-widest opacity-80">SYS.VER.1.0.0</p>
-              </div>
-            </Link>
+            <div className="flex justify-between items-center w-full md:w-auto">
+              <Link to="/" className="flex items-center gap-3 group">
+                <div className="group-hover:bg-terminal-green group-hover:text-terminal-dark transition-colors">
+                  <img src="https://res.cloudinary.com/datad8tms/image/upload/q_auto/f_auto/v1775571098/infolines-logo-bit_d1jmgr.svg" alt="Infolines Logo" className="w-10 h-10" />
+                </div>
+                <div>
+                  <h1 className="text-4xl font-display leading-none m-0">INFOLINES</h1>
+                  <p className="text-xs tracking-widest opacity-80">SYS.VER.1.0.0</p>
+                </div>
+              </Link>
+              
+              <button 
+                className="md:hidden p-2 text-terminal-green hover:bg-terminal-green hover:text-terminal-dark transition-colors"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              >
+                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
             
-            <nav className="flex flex-wrap gap-4 text-sm">
+            <nav className="hidden md:flex flex-wrap gap-4 text-sm">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}
@@ -46,6 +58,23 @@ export default function Layout() {
               ))}
             </nav>
           </div>
+
+          {isMobileMenuOpen && (
+            <nav className="md:hidden flex flex-col gap-4 mt-6 text-lg border-t-2 border-terminal-green pt-6">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`hover:bg-terminal-green hover:text-terminal-dark px-2 py-2 transition-colors ${
+                    location.pathname === link.path ? "bg-terminal-green text-terminal-dark" : ""
+                  }`}
+                >
+                  [{link.name}]
+                </Link>
+              ))}
+            </nav>
+          )}
         </header>
 
         <main className="min-h-[60vh]">
@@ -62,8 +91,8 @@ export default function Layout() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`hover:text-white transition-colors ${
-                  location.pathname === link.path ? "text-white underline" : ""
+                className={`hover:text-white transition-colors underline ${
+                  location.pathname === link.path ? "text-white" : ""
                 }`}
               >
                 {link.name}

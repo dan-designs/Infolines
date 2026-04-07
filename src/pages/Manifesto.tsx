@@ -7,7 +7,7 @@ export default function Manifesto() {
       </header>
 
       <div className="space-y-8 text-lg leading-relaxed">
-        <h3 className="text-3xl font-display text-terminal-green">PROTECT THE VIBE.</h3>
+        <h3 className="text-3xl font-display text-terminal-green">PROTECT OUR SCENE.</h3>
         
         <p>
           We are building a fortress against the commodification of the dancefloor.
@@ -31,7 +31,7 @@ export default function Manifesto() {
 
           <p>
             <strong className="text-xl block mb-2">04. PEER-TO-PEER</strong>
-            We facilitate connections, not transactions. Our marketplace is designed to empower organizers and attendees to interact directly, securely, and fairly.
+            We facilitate connections, not transactions. Our event feed is designed to empower organizers and attendees to interact directly, securely, and fairly.
           </p>
         </div>
 

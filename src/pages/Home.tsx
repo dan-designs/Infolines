@@ -16,13 +16,13 @@ export default function Home() {
         
         <div className="max-w-2xl space-y-6 text-lg leading-relaxed">
           <p>
-            Modern ticketing is a surveillance state. Corporate platforms track your every move, sell your data, and kill the vibe. 
+            Modern ticketing and social media platforms are a product of the modern surveillance state. Corporate platforms track your every move, sell your data, and are killing our scene. 
           </p>
           <p>
             <strong className="text-xl">Infolines is the antidote.</strong>
           </p>
           <p>
-            A community-gatekept marketplace for curated events, built on the phonic architecture of the 90s. We are reviving the lost art of the underground for the digital age.
+            A community-gatekept source of information for curated events, built on the phonic architecture of the 90s. We are reviving the lost art of the underground for the digital age.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="space-y-4">
           <h3 className="text-2xl font-display">03. CONNECTION</h3>
-          <p className="text-sm opacity-80">Peer-to-peer networking for the culture. Find the party, find your people.</p>
+          <p className="text-sm opacity-80">Peer-to-peer networking for the culture. Find your people to find the party.</p>
         </div>
       </section>
     </div>
