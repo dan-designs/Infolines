@@ -6,7 +6,7 @@ export default function Home() {
     <div className="space-y-16">
       <section className="space-y-8">
         <div className="inline-block border-2 border-terminal-green p-2 mb-4">
-          <span className="animate-pulse">_</span> SYSTEM STATUS: ONLINE
+          <span className="animate-pulse">_</span> SYSTEM STATUS: ONLINE IN RVA
         </div>
         
         <h2 className="text-5xl md:text-7xl font-display leading-tight">
