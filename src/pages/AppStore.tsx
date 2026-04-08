@@ -26,7 +26,7 @@ export default function AppStore() {
 
         <section className="space-y-2">
           <h3 className="text-lg opacity-50 tracking-widest font-bold">PROMOTIONAL TEXT (MAX 170 CHARS)</h3>
-          <p className="text-xl">Discover exclusive events, find tickets, and connect with a curated community. Privacy-first event networking.</p>
+          <p className="text-xl">Discover underground dance music events and connect with a peronally curated community through a nostalgia drive privacy-first event networking experience.</p>
         </section>
 
         <section className="space-y-4">
@@ -40,11 +40,10 @@ export default function AppStore() {
             </p>
             <p className="font-bold mt-6 mb-2">Key Features:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Secure Ticketing:</strong> Buy, sell, and transfer tickets seamlessly within our trusted marketplace.</li>
-              <li><strong>Location Drops:</strong> Receive verified venue coordinates and updates exclusively for ticket holders, ensuring safe and managed event access.</li>
-              <li><strong>The Pager System:</strong> Opt-in to receive direct, anti-spam push notifications from your favorite organizers.</li>
               <li><strong>Community Networking:</strong> Connect with like-minded attendees in a moderated, privacy-first environment.</li>
               <li><strong>Curated Discovery:</strong> Find exclusive pop-ups and cultural events that prioritize quality and community over mass scale.</li>
+              <li><strong>Location Drops:</strong> Receive verified venue coordinates and updates exclusively for ticket holders, ensuring safe and managed event access. In development!</li>
+              <li><strong>The Pager System:</strong> Opt-in to receive direct, anti-spam push notifications from your favorite organizers. In development!</li>
             </ul>
           </div>
         </section>
