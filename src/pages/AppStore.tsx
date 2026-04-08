@@ -26,7 +26,7 @@ export default function AppStore() {
 
         <section className="space-y-2">
           <h3 className="text-lg opacity-50 tracking-widest font-bold">PROMOTIONAL TEXT (MAX 170 CHARS)</h3>
-          <p className="text-xl">Discover underground dance music events and connect with a peronally curated community through a nostalgia drive privacy-first event networking experience.</p>
+          <p className="text-xl">Discover underground dance music events and connect with a personally curated community through a nostalgia drive privacy-first event networking experience.</p>
         </section>
 
         <section className="space-y-4">
