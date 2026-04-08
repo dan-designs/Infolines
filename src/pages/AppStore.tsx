@@ -36,7 +36,7 @@ export default function AppStore() {
               Infolines is a privacy-first event discovery and information sharing platform designed for curated event experiences. Built for organizers and attendees who value community and security, Infolines reimagines event networking by eliminating spam and protecting user data.
             </p>
             <p>
-              Inspired by the "infoline" concept—where attendees receive exclusive updates directly from trusted sources—our app ensures that you only get the information you need, when you need it. Discover unique cultural events, purchase tickets securely, and receive day-of location drops directly to your device.
+              Inspired by the "infoline" concept—where attendees receive exclusive updates directly from trusted sources—our app ensures that you only get the information you need, when you need it. Discover unique events and receive day-of location drops directly to your device.
             </p>
             <p className="font-bold mt-6 mb-2">Key Features:</p>
             <ul className="list-disc pl-6 space-y-2">
