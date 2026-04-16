@@ -28,10 +28,10 @@ export default function Home() {
 
         <div className="pt-8 flex flex-col sm:flex-row gap-6">
           <a 
-            href="mailto:danknots666+beta@gmail.com" 
+            href="https://apps.apple.com/us/app/infolines/id6761791726" 
             className="group flex items-center justify-between gap-4 bg-terminal-green text-terminal-dark px-6 py-4 font-bold text-lg hover:bg-transparent hover:text-terminal-green border-2 border-terminal-green transition-all"
           >
-            <span>Download Now!</span>
+            <span>Download For iOS!</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
           <Link 
