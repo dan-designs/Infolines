@@ -31,7 +31,7 @@ export default function Home() {
             href="mailto:danknots666+beta@gmail.com" 
             className="group flex items-center justify-between gap-4 bg-terminal-green text-terminal-dark px-6 py-4 font-bold text-lg hover:bg-transparent hover:text-terminal-green border-2 border-terminal-green transition-all"
           >
-            <span>JOIN TESTFLIGHT BETA</span>
+            <span>Download Now!</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
           <Link 
